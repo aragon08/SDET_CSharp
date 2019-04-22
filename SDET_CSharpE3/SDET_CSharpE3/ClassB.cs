@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SDET_CSharpE3
 {
-    class ClassB
+    class ClassB:ClassA
     {
+
     }
 }

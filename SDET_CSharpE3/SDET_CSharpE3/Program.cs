@@ -10,6 +10,9 @@ namespace SDET_CSharpE3
     {
         static void Main(string[] args)
         {
+            ClassB obj1 = new ClassB();
+            obj1.TwoStrings("Hello","Worlds");
+            //obj1.TwoLists();
         }
     }
 }
