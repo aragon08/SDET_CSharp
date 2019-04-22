@@ -12,7 +12,8 @@ namespace SDET_CSharpE3
         {
             ClassB obj1 = new ClassB();
             obj1.TwoStrings("Hello","Worlds");
-            //obj1.TwoLists();
+            obj1.TwoStrings("uno", "dos");
+            //obj1.TwoLists("uno","dos");
         }
     }
 }
