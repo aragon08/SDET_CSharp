@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace SDET_CSharpE3
 {
-    class ClassB : ClassA, ISDET3
+    interface ISDET3
     {
-        public void SayHello()
-        {
-            Console.WriteLine("Hello Interface");
-        }
+        void SayHello();               
     }
 }

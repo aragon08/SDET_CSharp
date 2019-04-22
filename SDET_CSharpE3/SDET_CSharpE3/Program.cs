@@ -14,6 +14,12 @@ namespace SDET_CSharpE3
             obj1.TwoStrings("Hello","Worlds");
             obj1.TwoStrings("uno", "dos");
             //obj1.TwoLists("uno","dos");
+
+            //Interface
+            //obj1.SayHello();
+            ISDET3 hi = new ClassB();
+            hi.SayHello();
+
         }
     }
 }
