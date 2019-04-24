@@ -16,9 +16,14 @@ namespace SDET_CSharpE3
 
         public void TwoLists(List<string> x, List<string> y)
         {
-            if (x.Count == y.Count ) Console.WriteLine("The length of {0} and {1} is the same", x, y);
-            else Console.WriteLine("The length of {0} and {1} is not the same", x, y);
+            if (x.Count == y.Count) Console.WriteLine("The length of {0} and {1} is the same", x.Count, y.Count);
+            else Console.WriteLine("The length of {0} and {1} is not the same", x.Count, y.Count);
         }
 
+        public void TwoLists(List<int> x, List<int> y)
+        {
+            if (x.Count == y.Count) Console.WriteLine("The length of {0} and {1} is the same", x.Count, y.Count);
+            else Console.WriteLine("The length of {0} and {1} is not the same", x.Count, y.Count);
+        }
     }
 }

@@ -12,5 +12,33 @@ namespace SDET_CSharpE3
         {
             Console.WriteLine("Hello Interface");
         }
+
+        public void wds(List<string> words)
+        {
+            Console.WriteLine("------------------------------");
+            words.Sort();
+            foreach (var item in words)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("------------------------------");
+            words.Reverse();
+            foreach (var item in words)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("------------------------------");
+        }
+
+        public void spaces(List<string> words)
+        {
+
+        }
+
+        public void duplicates(List<int> duplicated)
+        {
+
+        }
+
     }
 }
