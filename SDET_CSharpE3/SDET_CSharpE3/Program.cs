@@ -28,6 +28,7 @@ namespace SDET_CSharpE3
             //List of strings
             List<String> words = new List<string>() { "Text","Computer","Automation","Visual Studio","Auto Parts"," " };
             obj1.wds(words);
+            obj1.spaces(words);
 
             //List of integers duplicated
             List<int> numD = new List<int>() {1, 1, 2, 3, 4, 4, 5, 6, 7, 8, 10 };
