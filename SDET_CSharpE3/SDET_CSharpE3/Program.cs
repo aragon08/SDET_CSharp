@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
+using System.IO;
 
 namespace SDET_CSharpE3
 {
@@ -33,6 +35,9 @@ namespace SDET_CSharpE3
             //List of integers duplicated
             List<int> numD = new List<int>() {1, 1, 2, 3, 4, 4, 5, 6, 7, 8, 10 };
             obj1.duplicates(numD);
+
+            //XmlTextReader
+            obj1.readXML();
         }
     }
 }
